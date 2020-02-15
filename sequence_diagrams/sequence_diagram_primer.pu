@@ -7,7 +7,7 @@ entity "Some Kafka Topic" as topic
 participant "Some Always Running Service" as system2
 database "Some Database or File System" as db_or_fs
 
-group#PaleGreen Feature 1 - Document Message Flows
+group#PaleGreen Feature 1 - Document System Flows
   group#LightYellow Scenario 1.1 - Explain Sequence Diagrams
     activate system2
     human -> system1++ #SkyBlue: synchronous call
@@ -36,12 +36,12 @@ end
 
 legend left
   =Features
-  ==Feature 1: Document Message Flows
+  ==Feature 1: Document System Flows
   ====Scenario 1.1: Explain Sequence Diagrams
-  As an SLA Team Member
+  As a Team Member
   I need to understand the basics of sequence diagrams
-  So that I can understand this powerful tool that has been used to document the major critical flows within SLA
-  And I can use that knowledge to better understand the system and troubleshoot it
+  So that I can understand this powerful tool that has been used to document the critical flows
+  And I can use that knowledge to better understand the system and / or troubleshoot it
 
   =Narrative
   ==General Sequence Diagram Concepts
