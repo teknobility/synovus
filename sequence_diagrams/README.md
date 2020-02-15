@@ -95,3 +95,6 @@ end legend
 Press ctrl+alt+p and it should open a new tab with a rendered version of your diagram.
 
 As you make changes to your diagram, they will be refelected immediately in the previewer window.
+
+You should see this in the new window:
+![Sequence Diagram Primer](sequence_diagram_primer.png)
